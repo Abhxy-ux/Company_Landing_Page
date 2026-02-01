@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fa;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+/* Hero */
+.hero {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #d1d5db;
+    font-size: 1.1rem;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+/* Services */
+.services-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.service-card {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #f9fafb;
+}
+
+.service-card h3 {
+    margin-bottom: 8px;
+}
+
+/* Testimonials */
+.testimonial {
+    margin-top: 20px;
+    padding: 20px;
+    border-left: 4px solid #111827;
+    background-color: #f9fafb;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Contact */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-family: inherit;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #111827;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f2937;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #6b7280;
+    font-size: 0.85rem;
+}
